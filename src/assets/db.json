@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Brow Harmony Flexible Lifting Gel",
+      "categoryId": "1",
+      "price": 1700,
+      "image": "https://i.postimg.cc/q7jZRNS1/brow-harmony-flexible-lifting-gel-1440x1952-540x.webp",
+      "review": "172 REVIEWS"
+    },
+    {
+      "id": 2,
+      "productName": "Positive Light Silky Touch Highlighter",
+      "categoryId": "3",
+      "price": 2500,
+      "image": "https://i.postimg.cc/bvgFJmsX/positive-light-silky-touch-highlighter-flaunt-1440x1952-540x.webp",
+      "review": "521 REVIEWS"
+    },
+    {
+      "id": 3,
+      "productName": "Hydrating Under Eye Patches 1 pair",
+      "categoryId": "1",
+      "price": 400,
+      "image": "https://i.postimg.cc/qR9fJt69/hydrating-undereye-patches-single-1440x1952-f1ae5766-b8b6-42f0-afd4-540606197725-540x.webp",
+      "review": "124 REVIEWS"
+    },
+    {
+      "id": 4,
+      "productName": "Positive Light Custom Set",
+      "categoryId": "3",
+      "price": 4000,
+      "image": "https://i.postimg.cc/Vv3cHRCh/positive-light-custom-set-1440x1952-540x.webp",
+      "review": "4 REVIEWS"
+    },
+    {
+      "id": 5,
+      "productName": "Always an Optimist 4-In-1 Mist",
+      "categoryId": "3",
+      "price": 2200,
+      "image": "https://i.postimg.cc/Nj8wpRfN/4-IN-1-MIST-SKU-1-c9988cd0-b4d3-4fb7-b9e2-5e3a36bf5d05-540x.webp",
+      "review": "772 REVIEWS"
+    },
+    {
+      "id": 6,
+      "productName": "Blush & Highlight Custom Set",
+      "categoryId": "3",
+      "price": 4000,
+      "image": "https://i.postimg.cc/k4HrBcf5/blush-highlight-bundle-1440x1952-540x.webp",
+      "review": "10 REVIEWS"
+    },
+    {
+      "id": 7,
+      "productName": "Kind Words Matte Lipstick",
+      "categoryId": "2",
+      "price": 1300,
+      "image": "https://i.postimg.cc/gkWDWhKF/kind-words-matte-lipstick-talented-540x.webp",
+      "review": "406 REVIEWS"
+    },
+    {
+      "id": 8,
+      "productName": "Kind Words Matte Lip Liner",
+      "categoryId": "2",
+      "price": 700,
+      "image": "https://i.postimg.cc/zfbWWDkF/kind-words-matte-lip-liner-humble-open-540x.webp",
+      "review": "356 REVIEWS"
+    },
+    {
+      "id": 9,
+      "productName": "Rare Impact Kind Words Matte Lipstick in Devoted",
+      "categoryId": "2",
+      "price": 1000,
+      "image": "https://i.postimg.cc/c4F8bt9c/kind-words-matte-lipstick-devoted-1440x1952-540x.webp",
+      "review": "19 REVIEWS"
+    },
+    {
+      "id": 10,
+      "productName": "Perfect Strokes Universal Volumizing Mascara",
+      "categoryId": "1",
+      "price": 1800,
+      "image": "https://i.postimg.cc/sgkf65Wq/Full-Size-Mascara-Open-SKU-540x.webp",
+      "review": "654 REVIEWS"
+    },
+    {
+      "id": 11,
+      "productName": "Rare Beauty Discovery Eyeshadow Palette – Give Yourself Grace",
+      "categoryId": "1",
+      "price": "4700",
+      "image": "https://i.postimg.cc/sxs4pBKZ/discovery-eyeshadow-palette-give-yourself-grace-ecomm-02-1440x1952-540x.webp",
+      "review": "90 REVIEWS"
+    },
+    {
+      "id": 12,
+      "productName": "Perfect Strokes Matte Liquid Liner",
+      "categoryId": "1",
+      "price": 2300,
+      "image": "https://i.postimg.cc/HsLQd1NH/LIQUID-LINER-SKU-1-540x.webp",
+      "review": "765 REVIEWS"
+    },
+    {
+      "id": 13,
+      "productName": "With Gratitude Dewy Lip Balm",
+      "categoryId": "2",
+      "price": 1700,
+      "image": "https://i.postimg.cc/G90r7C8Y/Dewy-Lip-THANKFUL-SKU-540x.webp",
+      "review": "939 REVIEWS"
+    },
+    {
+      "id": 14,
+      "productName": "Lip Soufflé Matte Lip Cream",
+      "categoryId": "2",
+      "price": 1900,
+      "image": "https://i.postimg.cc/MH1K8H8t/lip-souffle-matte-lip-cream-elevate-sku-1440x1952-540x.webp",
+      "review": "749 REVIEWS"
+    },
+    {
+      "id": 15,
+      "productName": "Brow Harmony Shape & Fill Duo",
+      "categoryId": "1",
+      "price": 750,
+      "image": "https://i.postimg.cc/j2D3WnjQ/Brow-Harmony-Palette-Soft-Blonde-SKU-540x.webp",
+      "review": "187 REVIEWS"
+    },
+    {
+      "id": 16,
+      "productName": "Brow Harmony Precision Pencil",
+      "categoryId": "1",
+      "price": 390,
+      "image": "https://i.postimg.cc/1zLrW7R6/brow-harmony-precision-pencil-soft-blonde-1440x1952-540x.webp",
+      "review": "456 REVIEWS"
+    },
+    {
+      "id": 17,
+      "productName": "Always an Optimist Soft Radiance Setting Powder",
+      "categoryId": "3",
+      "price": 4990,
+      "image": "https://i.postimg.cc/jq6B7Pvv/Setting-Powder-Light-SKU-540x.webp",
+      "review": "237 REVIEWS"
+    },
+    {
+      "id": 18,
+      "productName": "Blot & Glow Touch-Up Kit",
+      "categoryId": "3",
+      "price": 2600,
+      "image": "https://i.postimg.cc/MZhbqF1F/BLOT-GLOW-KIT-SKU-2-8ba6cc40-bf8e-4f57-9668-8e6757111141-540x.webp",
+      "review": "463 REVIEWS"
+    },
+    {
+      "id": 19,
+      "productName": "Liquid Touch Brightening Concealer",
+      "categoryId": "3",
+      "price": 7870,
+      "image": "https://i.postimg.cc/kMcqd0rn/Concealer-150-C-SKU-4831ceb5-5b5f-4645-b662-66763fccdc98-540x.webp",
+      "review": "9937 REVIEWS"
+    },
+    {
+      "id": 20,
+      "productName": "Liquid Touch Weightless Foundation",
+      "categoryId": "3",
+      "price": 8990,
+      "image": "https://i.postimg.cc/WpfYr8gG/Foundation-570-N-SKU-52732c5c-9cc5-41b9-a294-b1e9a87a9e4f-540x.webp",
+      "review": "2869 REVIEWS"
+    }
+  ]
+}

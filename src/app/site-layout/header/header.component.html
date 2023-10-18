@@ -1,0 +1,174 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Bellefair', serif;
+    }
+
+    header {
+        background: #fdfbf8;
+        text-align: center;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+
+    }
+
+    .navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* position: sticky;
+        top: 0; */
+
+    }
+
+    #w2 {
+        margin-left: 450px;
+        font-size: 50px;
+        font-weight: 500;
+        color: #7f2549;
+    }
+
+    .navbar ul {
+        margin-left: -700px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+
+    }
+
+    .navbar a {
+        font-size: medium;
+        text-decoration: none;
+        color: #7f2549;
+    }
+
+    .navbar a:hover {
+        color: #421a1a;
+    }
+
+    .search-form {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: -20px;
+
+    }
+
+    .search-form input[type="search"] {
+        margin-bottom: 7px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #fdfbf8;
+        border: 1px solid #7f2549;
+        margin-left: 0;
+
+    }
+
+    .search-form button {
+        margin-bottom: 7px;
+
+        padding: 10px 10px;
+        background-color: #fdfbf8;
+        color: #7f2549;
+        border-radius: 0px;
+        cursor: pointer;
+        border: 1px solid #7f2549;
+
+    }
+
+    .cart {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .cart button {
+        padding: 10px 20px;
+        background-color: #fdfbf8;
+        color: #7f2549;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .badge {
+        background-color: #fdfbf8;
+        color: #7f2549;
+        padding: 5px 10px;
+        border-radius: 50%;
+    }
+
+    /* Media Query for Smaller Screens */
+    /* Media Query for Smaller Screens */
+    @media (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            /* Stack elements vertically */
+            text-align: center;
+        }
+
+        #w2 {
+            margin-left: 0;
+            /* Remove left margin on smaller screens */
+            margin-bottom: 10px;
+            /* Add bottom margin for spacing */
+        }
+
+        .navbar ul{
+            margin-left: 0;
+        }
+
+        .cart {
+            margin-left: 0;
+            /* Remove left margin on smaller screens */
+            margin-top: 10px;
+            /* Add top margin for spacing */
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+               
+                <a id="w2" class="navbar-brand logo" href="">Rare Beauty</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--  -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav" >
+                            <li class="nav-item">
+                                <a class="nav-link" href="products/add-product">Add product</a>
+                            </li>
+                        </ul>
+                        <div class="cart ms-auto">
+                            <button type="submit">
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+                                <span class="badge me-1 rounded-pill">0</span>
+                            </button>
+                        </div>
+                        <div class="search-form me-3 ms-3">
+                            <input [(ngModel)]="searchData" (keyup)="accessData($event)" name="o1" id="y4" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button type="submit">Search</button>
+                        </div>
+                    </div>
+               </div>
+            </div>
+          
+    </header>
+
+</body>

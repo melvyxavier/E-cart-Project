@@ -1,0 +1,82 @@
+<style>
+    #w2 {
+        color: #7f2549;
+        padding: 20px;
+        background-color: #fdf6f0;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgb(255, 255, 255);
+        font-family: 'Bellefair', serif;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        margin-top: 300px;
+        position: relative;
+        top: 100%;
+        left: 50%;
+
+    }
+
+    @media (max-width: 1150px) {
+
+
+        #w2 {
+            margin-left: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div id="w2" class="row">
+        <h1 class="text-center">Edit Product Details</h1>
+        <form (ngSubmit)="updateData()" action="" class="text-center">
+
+            <div class="form-group mt-3">
+                <input [(ngModel)]="pdata.productName"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" id="e1" name="q1" required>
+            </div>
+
+            <div class="form-group mt-3">
+                <input [(ngModel)]="pdata.categoryId"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" id="e2" name="q2" required>
+            </div>
+
+            <div class="form-group mt-3">
+                <input [(ngModel)]="pdata.price"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" id="e3" name="q3" required>
+            </div>
+
+            <div class="form-group mt-3">
+                <input [(ngModel)]="pdata.image"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" id="e4" name="q4" required>
+            </div>
+
+
+            <div class="form-group mt-3">
+                <input [(ngModel)]="pdata.review"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" id="e5" name="q5" required>
+            </div>
+
+            <button class="mt-3" style="border: 1px solid #7f2549;width: 30%;background-color: #fdf6f0;height: 30px;"
+                type="submit">Update</button>
+        </form>
+
+
+    </div>
+
+</div>

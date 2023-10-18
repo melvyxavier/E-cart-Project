@@ -1,0 +1,112 @@
+<style>
+
+    #w2 {
+        color: #7f2549;
+        padding: 20px;
+        background-color: #fdf6f0;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgb(255, 255, 255);
+        font-family: 'Bellefair', serif;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        margin-top: 300px;
+        position: relative;
+        top: 100%;
+        left: 50%;
+
+    }
+
+    @media (max-width: 1150px) {
+
+
+        #w2 {
+            margin-left: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div id="w2" class="row">
+        <h1 class="text-center">Add New Product</h1>
+        <form (ngSubmit)="addNewProduct()" [formGroup]="addFormModel" class="text-center">
+            <div class="form-group mt-2">
+                <input formControlName="id"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Enter product ID" id="name" name="ename" required>
+            </div>
+
+            <div *ngIf="this.addFormModel.get('id')?.errors&&this.addFormModel.get('id')?.touched">
+                <p class="text-danger">*Invalid ID</p>
+            </div>
+
+            <div class="form-group mt-3">
+                <input formControlName="productName"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Enter Product Name" id="name" name="ename" required>
+            </div>
+
+
+            <div *ngIf="this.addFormModel.get('productName')?.errors&&this.addFormModel.get('productName')?.touched">
+                <p class="text-danger">*Invalid product name</p>
+            </div>
+
+            <div class="form-group mt-3">
+                <input formControlName="categoryId"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Enter Category ID" id="name" name="ename" required>
+            </div>
+
+            <div *ngIf="this.addFormModel.get('categoryId')?.errors&&this.addFormModel.get('categoryId')?.touched">
+                <p class="text-danger">*Invalid category ID</p>
+            </div>
+
+            <div class="form-group mt-3">
+                <input formControlName="price"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Enter Price" id="name" name="ename" required>
+            </div>
+
+            <div *ngIf="this.addFormModel.get('price')?.errors&&this.addFormModel.get('price')?.touched">
+                <p class="text-danger">*Invalid</p>
+            </div>
+
+            <div class="form-group mt-3">
+                <input formControlName="image"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Enter Image Url" id="name" name="ename" required>
+            </div>
+
+            <div *ngIf="this.addFormModel.get('image')?.errors&&this.addFormModel.get('image')?.touched">
+                <p class="text-danger">*Invalid image Url</p>
+            </div>
+
+            <div class="form-group mt-3">
+                <input formControlName="review"
+                    style="text-align: center;width: 50%;border: 1px solid #7f2549;border-radius: 10px;height: 30px;"
+                    type="text" placeholder="Add reviews" id="name" name="ename" required>
+            </div>
+
+            <div *ngIf="this.addFormModel.get('review')?.errors&&this.addFormModel.get('review')?.touched">
+                <p class="text-danger">*Invalid</p>
+            </div>
+
+            <button class="mt-3" style="border: 1px solid #7f2549;width: 30%;background-color: #fdf6f0;height: 30px;"
+                type="submit">Add Product</button>
+        </form>
+
+
+    </div>
+
+</div>
